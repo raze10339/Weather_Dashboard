@@ -11,7 +11,7 @@ class WeatherService {
   constructor() {
     // TODO: Assign the properties baseURL and apiKey using process.env
     this.baseURL = process.env.OPENWEATHER_BASE_URL || 'https://api.openweathermap.org/data/2.5';
-    this.apiKey = process.env.OPENWEATHER_API_KEY || '6c8e9197dea363a51d7bc49a8d9e59c0'; 
+    this.apiKey = process.env.OPENWEATHER_API_KEY || 'API_KEY'; 
   }
 
   // TODO: Create fetchLocationData method
